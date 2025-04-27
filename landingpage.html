@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- boxicon link  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- HEADER  -->
+    <header>
+        <div class="nav-container">
+            <div class="nav1">
+                <h1>Trello</h1>
+            </div>
+            <div class="nav2">
+                <button type="button"><a href="signup.html">Sign Up</a></button>
+                <button type="button"><a href="index.html">Log in</a></button>
+            </div>
+        </div>
+        <div class="toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div class="menubar menu">
+            <button type="button"><a href="signup.html">Sign Up</a></button>
+                <button type="button"><a href="index.html">Log in</a></button>
+        </div>
+    </header>
+    <!-- HERO SECTION  -->
+    <div class="section1">
+        <h2>Add Details</h2>
+        <input id="name" type="text" placeholder="Name">
+        <input id="number" type="number" placeholder="Number">
+        <input id="email" type="email" placeholder="Email">
+        <button type="submit" id="submit">Add</button>
+    </div>
+
+    <section class="section2">
+        <div id="card1" class="card">Pending</div>
+        <div id="card2" class="card">In Process</div>
+        <div id="card3" class="card">Complete</div>
+    </section>
+
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
